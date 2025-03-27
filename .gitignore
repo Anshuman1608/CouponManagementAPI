@@ -1,0 +1,63 @@
+# Compiled class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven specific
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle specific
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+gradle.log
+
+# Spring Boot specific
+*.log
+*.pid
+*.gz
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse specific
+.project
+.classpath
+.settings/
+
+# VS Code specific
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+application*.yml
+application*.properties
+
+# Node modules (if frontend is present)
+node_modules/
+
+# Docker related
+*.log
+docker-compose.override.yml
+
+# Local database files
+*.h2.db
+*.mv.db
