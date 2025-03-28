@@ -49,7 +49,6 @@ Thumbs.db
 # Environment variables and secrets
 .env
 application*.yml
-application*.properties
 
 # Node modules (if frontend is present)
 node_modules/
@@ -61,3 +60,4 @@ docker-compose.override.yml
 # Local database files
 *.h2.db
 *.mv.db
+CouponManagementAPI/.factorypath
